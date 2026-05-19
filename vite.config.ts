@@ -13,6 +13,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
     tsconfigPaths(),
-    nitro()
+    nitro({ preset: "vercel" })
   ]
 });
