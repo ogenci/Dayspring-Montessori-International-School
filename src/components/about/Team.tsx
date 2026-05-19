@@ -48,6 +48,7 @@ export default function Team() {
                   <img
                     src={m.img}
                     alt={m.n}
+                    loading="lazy"
                     className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
                   {/* Subtle gradient */}

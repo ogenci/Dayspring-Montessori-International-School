@@ -11,7 +11,7 @@ export default function Welcome() {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-[10px] bg-gradient-to-br from-gold-soft via-cream to-secondary" />
             <div className="overflow-hidden rounded-[10px] bg-maroon">
-              <img src={principal} alt="Mr. Eric Kofi Addo, Principal of Dayspring Montessori" className="h-[640px] w-full object-cover object-top" />
+              <img src={principal} alt="Mr. Eric Kofi Addo, Principal of Dayspring Montessori" loading="lazy" className="h-[640px] w-full object-cover object-top" />
             </div>
             <div className="absolute -bottom-6 -right-6 max-w-[220px] rounded-[10px] bg-maroon px-5 py-4 text-cream shadow-2xl">
               <p className="font-script text-2xl leading-none text-gold">28+</p>
